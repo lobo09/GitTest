@@ -11,7 +11,7 @@ namespace Caliburn.Micro_Test2.ViewModels
             list.Add("Ich");
             list.Add("bin");
             list.Add("eine");
-            list.Add("branch");
+            list.Add("master");
             list.Add("Liste");
             return list;
         }
