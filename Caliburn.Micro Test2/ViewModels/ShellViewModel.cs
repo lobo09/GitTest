@@ -10,6 +10,7 @@ namespace Caliburn.Micro_Test2.ViewModels
     public class ShellViewModel : Conductor<object>
     {
         private List<string> myList;
+        private List<string> mySecondList;
 
         public ShellViewModel()
         {
