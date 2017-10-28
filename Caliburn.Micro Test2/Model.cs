@@ -7,7 +7,7 @@ namespace Caliburn.Micro_Test2.ViewModels
     {
         internal static List<string> GetList()
         {
-            //Comment written in GitHub
+            //Comment editted in GitHub
             var list = new List<string>();
             list.Add("Ich");
             list.Add("bin");
