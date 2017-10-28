@@ -9,6 +9,22 @@ namespace Caliburn.Micro_Test2.ViewModels
 {
     public class ShellViewModel : Conductor<object>
     {
-        
+        private List<string> myList;
+
+        public ShellViewModel()
+        {
+            MyList = Model.GetList();
+        }
+
+        public List<string> MyList
+        {
+            get { return myList; }
+            set
+            {
+                myList = value;
+                NotifyOfPropertyChange(() => MyList);
+            }
+        }
+
     }
 }
